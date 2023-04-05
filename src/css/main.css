@@ -1,0 +1,33 @@
+html {
+    font-size: calc(24px + 3 * (100vw - 320px) / 159.9);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    position: relative;
+}
+
+#scene {
+    width: 105%;
+    left: -2.5%;
+    height: 105%;
+    top: -2.5%;
+}
+
+.scene-overflow {
+    position: absolute !important;
+    overflow: hidden;
+    inset: 0 0 0 0;
+    height: 100%;
+    z-index: -1;
+}
+
+#scene-wrapper {
+    position: absolute;
+    height: 100%;
+}
