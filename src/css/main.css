@@ -1,5 +1,5 @@
 html {
-    font-size: calc(24px + 3 * (100vw - 320px) / 159.9);
+    /*font-size: calc(24px + 3 * (100vw - 320px) / 159.9);*/
     overflow-x: hidden;
 }
 
@@ -10,6 +10,11 @@ a {
 
 body {
     position: relative;
+    display: flex;
+}
+
+html, body {
+    height: auto;
 }
 
 #scene {
@@ -30,4 +35,5 @@ body {
 #scene-wrapper {
     position: absolute;
     height: 100%;
+    width: 100%;
 }
